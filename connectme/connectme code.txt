@@ -1,0 +1,356 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>connectme</title>
+        <style>
+  .instagram 
+ {
+     position: relative;
+     left: 570px;
+     margin-top: 20px;
+    display: flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.instagram:hover
+ {
+    background: #008168;
+}
+
+.instagram:active 
+{
+    background: #006e58;
+}
+
+.instagram__text,
+.instagram__icon 
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.instagram__icon 
+{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.telegram
+           {
+            position: relative;
+     left: 570px;
+     margin-top: 20px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.telegram:hover
+ {
+  background: #008168;
+}
+
+.telegram:active 
+{
+  background: #006e58;
+}
+
+.telegram__text,
+.telegram__icon 
+{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.telegram__icon 
+{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.github 
+           {
+            position: relative;
+     left: 570px;
+     margin-top: 20px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.github:hover
+ {
+  background: #008168;
+}
+
+.github:active 
+{
+  background: #006e58;
+}
+
+.github__text,
+.github__icon 
+{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.github__icon 
+{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.mail 
+           {
+            position: relative;
+     left: 570px;
+     margin-top: 20px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.mail:hover
+ {
+  background: #008168;
+}
+
+.mail:active 
+{
+  background: #006e58;
+}
+
+.mail__text,
+.mail__icon 
+{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.mail__icon 
+{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.linkedin 
+           {
+            position: relative;
+     left: 570px;
+     margin-top: 20px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.linkedin:hover
+ {
+  background: #008168;
+}
+
+.linkedin:active 
+{
+  background: #006e58;
+}
+
+.linkedin__text,
+.linkedin__icon 
+{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.linkedin__icon 
+{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+#caption
+            {
+                color: #ADEFD1FF;
+                font-size: 25px;
+                text-align: center;
+            }
+        
+        .flip-box {
+             background-color: transparent;
+             width: 300px;
+             height: 200px;
+             border: 1px solid rgb(250, 250, 250);
+             perspective: 1000px; 
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 300px;
+             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+             border-radius: 20%;
+}
+
+        .flip-box-inner {
+            position: relative;
+             width: 100%;
+             height: 100%;
+             text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+}
+
+
+        .flip-box:hover .flip-box-inner {
+             transform: rotateY(180deg);
+}
+
+
+        .flip-box-front, .flip-box-back {
+            position: absolute;
+            width: 100%;
+             height: 100%;
+            -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden;
+            border-radius: 20%;
+}
+
+        .flip-box-front 
+            {
+             background-color: #bbb;
+             color: black;
+             }
+
+        .flip-box-back {
+             background-color: white;
+             color: black;
+             transform: rotateY(180deg);
+        }
+             #image
+            {
+                background-color: white;
+                border-radius: 20%;
+            }
+            #full
+            {
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            }
+
+        </style>
+    </head>
+<body>
+    <div id="full">
+    <figure id="image">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img id="image" src="https://www.denofgeek.com/wp-content/uploads/2019/02/mcu-1-iron-man.jpg?resize=768%2C432" alt="profile picture" style="width:300px;height:200px">
+              </div>
+              <div class="flip-box-back">
+                <h2>ABOUT</h2>
+                <p><b>NAME: MOHAMMED RASHEEN K</b><br></p>
+               <p><b>OCCUPATION: Student</b><br></p>
+              <p><b>ABOUT:</b>I am a b-tech Student My Skills are HTML CSS</p>
+              </div>
+            </div>
+          </div>
+        <figcaption id="caption">username:@rashee_n</figcaption>
+    </figure>
+<button onclick="location.href='https://instagram.com/rashee_n?utm_medium=copy_link'" type="button" class="instagram">
+    <span class="instagram__text">Instagram</span>
+    <span class="instagram__icon">
+        <ion-icon name="logo-instagram"></ion-icon>
+    </span>
+  </button>
+  <button onclick="location.href='https:https://t.me/rasheen123'" type="button" class="telegram">
+    <span class="telegram__text">Telegram</span>
+    <span class="telegram__icon">
+        <ion-icon name="send-outline"></ion-icon>
+    </span>
+  </button>
+  <button onclick="location.href='https://github.com/rasheen404'" type="button" class="github">
+    <span class="github__text">Github</span>
+    <span class="github__icon">
+        <ion-icon name="logo-github"></ion-icon>
+    </span>
+  </button>
+  <button onclick="location.href='mailto:rasheenerror404@gmail.com'" type="button" class="mail">
+    <span class="mail__text">Mail</span>
+    <span class="mail__icon">
+        <ion-icon name="mail-outline"></ion-icon>
+    </span>
+  </button>
+  <button onclick="location.href='http://linkedin.com/in/mohammed-rasheen-k-b55047211'" type="button" class="linkedin">
+    <span class="linkedin__text">Linkedin</span>
+    <span class="linkedin__icon">
+        <ion-icon name="logo-linkedin"></ion-icon>
+    </span>
+  </button>
+
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </div>
+</body>
+  </html>
